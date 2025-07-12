@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhupinder759" alt="bhupinder759" /></a> </p>
 
-- 🔭 I’m currently working on [Alien Flow](https://alien-five.vercel.app/)
+- 🔭 I’m currently working on [Barber Shop](https://github.com/bhupinder759/Mern-Barber-app/)
 
-- 🌱 I’m currently learning **Next.js**
+- 🌱 I’m currently learning **Mern Stack**
 
 - 👨‍💻 All of my projects are available at [https://github.com/bhupinder759](https://github.com/bhupinder759)
 
