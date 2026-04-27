@@ -17,10 +17,10 @@
 
 ## 👨‍💻 About Me
 
-[cite_start]I am a Backend Architect focused on building scalable, secure, and high-performance server-side ecosystems[cite: 4]. [cite_start]I am a strong advocate for clean architecture, modular microservices, and asynchronous communication[cite: 6, 13]. I am actively seeking global remote opportunities to deliver immediate technical impact.
+I am a Backend Architect focused on building scalable, secure, and high-performance server-side ecosystems. I am a strong advocate for clean architecture, modular microservices, and asynchronous communication. I am actively seeking global remote opportunities to deliver immediate technical impact.
 
-- [cite_start]🏢 **Currently:** Architecting scalable RESTful APIs as a Node.js Backend Developer at Waplia Digital Solutions[cite: 8, 10].
-- [cite_start]🔭 **Current Focus:** Advanced TypeScript, NestJS microservices, and real-time WebRTC/WebSocket integrations[cite: 10, 26].
+- 🏢 **Currently:** Architecting scalable RESTful APIs as a Node.js Backend Developer at Waplia Digital Solutions.
+- 🔭 **Current Focus:** Advanced TypeScript, NestJS microservices, and real-time WebRTC/WebSocket integrations.
 - 📊 **Beyond Coding:** I actively analyze cryptocurrency market microstructures using Elliott Wave Theory and Fibonacci retracements.
 - 🎥 **Content Creation:** I document my journey, tech tutorials, and lifestyle on my YouTube channel, *Bhupinder Vlog*.
 - 🌱 **Continuous Growth:** Expanding my English fluency for seamless integration into distributed, global engineering teams.
@@ -55,7 +55,7 @@
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 </p>
-[cite_start]<p><em>Note: Stack details referenced from professional experience. [cite: 33, 34, 35, 36]</em></p>
+<p><em>Note: Stack details referenced from professional experience. [cite: 33, 34, 35, 36]</em></p>
 
 ---
 
@@ -63,10 +63,10 @@
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| [cite_start]**Crypto Analytics Dashboard** [cite: 22] | [cite_start]Real-time market streaming processing high-frequency updates with sub-second latency. [cite: 23] [cite_start]Bypassed rate limits with Redis caching. [cite: 24] | `NestJS`, `WebSockets`, `Redis` |
-| [cite_start]**Real-Time Comm Server** [cite: 25] | [cite_start]Secure, low-latency messaging and signaling server featuring WebRTC and strict JWT auth. [cite: 26, 27] | `NestJS`, `WebSockets`, `WebRTC` |
-| [cite_start]**Multi-Vendor Marketplace** [cite: 28] | [cite_start]Comprehensive APIs handling e-commerce lifecycles, real-time order tracking, and dynamic cart systems. [cite: 29, 30] | `Node.js`, `REST APIs`, `PostgreSQL` |
-| [cite_start]**Healthcare Inventory System** [cite: 31] | [cite_start]Secure medicine ordering platform with automated inventory management and compliant prescription handling. [cite: 31] | `Node.js`, `Express`, `MongoDB` |
+| **Crypto Analytics Dashboard** [new] | Real-time market streaming processing high-frequency updates with sub-second latency. [cite: 23] Bypassed rate limits with Redis caching. [cite: 24] | `NestJS`, `WebSockets`, `Redis` |
+| **Real-Time Comm Server** [cite: 25] | Secure, low-latency messaging and signaling server featuring WebRTC and strict JWT auth. [cite: 26, 27] | `NestJS`, `WebSockets`, `WebRTC` |
+| **Multi-Vendor Marketplace** [cite: 28] | Comprehensive APIs handling e-commerce lifecycles, real-time order tracking, and dynamic cart systems. [cite: 29, 30] | `Node.js`, `REST APIs`, `PostgreSQL` |
+| **Healthcare Inventory System** [cite: 31] | Secure medicine ordering platform with automated inventory management and compliant prescription handling. [cite: 31] | `Node.js`, `Express`, `MongoDB` |
 
 ---
 
