@@ -55,7 +55,7 @@ I am a Backend Architect focused on building scalable, secure, and high-performa
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 </p>
-<p><em>Note: Stack details referenced from professional experience. [cite: 33, 34, 35, 36]</em></p>
+<p><em>Note: Stack details referenced from professional experience. ]</em></p>
 
 ---
 
@@ -63,10 +63,10 @@ I am a Backend Architect focused on building scalable, secure, and high-performa
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **Crypto Analytics Dashboard** [new] | Real-time market streaming processing high-frequency updates with sub-second latency. [cite: 23] Bypassed rate limits with Redis caching. [cite: 24] | `NestJS`, `WebSockets`, `Redis` |
-| **Real-Time Comm Server** [cite: 25] | Secure, low-latency messaging and signaling server featuring WebRTC and strict JWT auth. [cite: 26, 27] | `NestJS`, `WebSockets`, `WebRTC` |
-| **Multi-Vendor Marketplace** [cite: 28] | Comprehensive APIs handling e-commerce lifecycles, real-time order tracking, and dynamic cart systems. [cite: 29, 30] | `Node.js`, `REST APIs`, `PostgreSQL` |
-| **Healthcare Inventory System** [cite: 31] | Secure medicine ordering platform with automated inventory management and compliant prescription handling. [cite: 31] | `Node.js`, `Express`, `MongoDB` |
+| **Crypto Analytics Dashboard**  | Real-time market streaming processing high-frequency updates with sub-second latency.  Bypassed rate limits with Redis caching.  | `NestJS`, `WebSockets`, `Redis` |
+| **Real-Time Comm Server**  | Secure, low-latency messaging and signaling server featuring WebRTC and strict JWT auth.  | `NestJS`, `WebSockets`, `WebRTC` |
+| **Multi-Vendor Marketplace**  | Comprehensive APIs handling e-commerce lifecycles, real-time order tracking, and dynamic cart systems.  | `Node.js`, `REST APIs`, `PostgreSQL` |
+| **Healthcare Inventory System**  | Secure medicine ordering platform with automated inventory management and compliant prescription handling.  | `Node.js`, `Express`, `MongoDB` |
 
 ---
 
