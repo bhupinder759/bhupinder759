@@ -1,5 +1,5 @@
-[cite_start]<h1 align="center">Hi 👋, I'm Bhupinder Singh [cite: 1]</h1>
-<h3 align="center">Backend Architect | [cite_start]Node.js & NestJS Specialist [cite: 4]</h3>
+<h1 align="center">Hi 👋, I'm Bhupinder Singh </h1>
+<h3 align="center">Backend Architect | Node.js & NestJS Specialist </h3>
 
 <p align="center">
   <a href="https://github.com/bhupinder759">
@@ -9,7 +9,7 @@
 
 <p align="center"> 
   <a href="https://linkedin.com/in/bhupinder-singh-a5b554285"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  [cite_start]<a href="mailto:bhupinderkarnawal@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> [cite: 2]
+  <a href="mailto:bhupinderkarnawal@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> 
   <a href="https://www.youtube.com/@raisinghyt"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Vlog" /></a>
 </p>
 
