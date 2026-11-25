@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate profile images
 
 on:
   schedule:
@@ -20,6 +20,15 @@ jobs:
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
+
+      # 3D contribution chart, built here so it never depends on a public server
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect images
+        run: cp -r profile-3d-contrib dist/
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

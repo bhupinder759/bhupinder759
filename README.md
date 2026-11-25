@@ -2,36 +2,48 @@
 
 <p align="center">
   <a href="https://github.com/bhupinder759">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Backend+Developer+(Node.js+%2F+NestJS);25+microservices+over+Kafka+%26+gRPC;Payments%2C+wallets+%26+idempotent+systems;6M%2B+notifications+in+production;Open+to+global+remote+roles" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Backend+Developer+(Node.js+%2F+NestJS);25+microservices+over+Kafka+%26+gRPC;Payments%2C+wallets+%26+idempotent+systems;6M%2B+notifications+in+production;3+years+building+backend+systems;Open+to+work+%C2%B7+immediate+joiner" alt="Typing SVG" />
   </a>
 </p>
 
-<p align="center"> 
-  <a href="https://linkedin.com/in/bhupinder-singh-a5b554285"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:bhupinderkarnawal@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a> 
+<p align="center">
+  <a href="https://bhupinder-singh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/bhupinder-singh-backend"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:bhupinderkarnawal@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://www.youtube.com/@raisinghyt"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=bhupinder759&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Open%20to%20work-2EA44F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Availability-Immediate%20joiner-0E75B6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Roles-Backend%20%C2%B7%20Node.js%20%C2%B7%20NestJS-6C63FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/Location-India%20%C2%B7%20Remote%20worldwide-FF6B6B?style=flat-square" />
+</p>
+
+<p align="center">
+  🌐 <b>Portfolio:</b> <a href="https://bhupinder-singh.vercel.app">bhupinder-singh.vercel.app</a>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-Backend developer with ~2.5 years of experience, working on **Node.js microservices**
+Backend developer with **3 years of Node.js experience** (full-time and freelance), building **Node.js microservices**
 that handle payments, wallets and notifications at scale. Most of what I do is about
 making distributed flows **safe to repeat** — a duplicate webhook should never charge
 a user twice, and a redelivered Kafka event should never credit someone twice.
 
-- 🏢 **Currently:** Node.js Backend Developer at **BlueCS Limited**, working on **BlueEra** — an India-first super app with 100K+ Play Store downloads
+- 🏢 **Most recently:** Node.js Backend Developer at **BlueCS Limited** on **BlueEra**, an India-first super app with 100K+ Play Store downloads
 - 🧩 **I own:** subscription plans, Razorpay payments & refunds, GST invoicing, the refer-and-earn wallet, and the notification service
 - 🔭 **Learning now:** advanced TypeScript, system design, and DSA (public 8-month streak below)
-- 🌏 **Looking for:** backend roles at larger scale — India or global remote
+- 🌏 **Looking for:** backend roles at larger scale, India or global remote. **Available to join immediately.**
 - 📊 **Outside code:** I follow crypto markets and build small trading tools for fun
 - 🎥 **I also vlog** my journey on YouTube
 
 ---
 
-## ⚙️ What I actually work on
+## ⚙️ What I built at BlueEra
 
 ```
 BlueEra super app  →  ~25 independent Node.js microservices
@@ -103,17 +115,17 @@ My services        →  subscriptions & payments (Razorpay)
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bhupinder759&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=bhupinder759&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=bhupinder759&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=86400" width="48%" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com/?user=bhupinder759&theme=tokyonight&hide_border=true" width="48%" alt="Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhupinder759&theme=tokyo-night&hide_border=true&area=true" width="97%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhupinder759&theme=tokyo-night&hide_border=true&area=true" width="97%" alt="Activity graph" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhupinder759&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="42%" />
-  <img src="https://github-profile-trophy.vercel.app/?username=bhupinder759&theme=tokyonight&no-frame=true&no-bg=true&column=3&margin-w=10" width="52%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhupinder759&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" width="42%" alt="Top languages" />
+  <img src="https://raw.githubusercontent.com/bhupinder759/bhupinder759/output/profile-3d-contrib/profile-night-rainbow.svg" width="55%" alt="3D contribution chart" />
 </p>
 
 <picture>
