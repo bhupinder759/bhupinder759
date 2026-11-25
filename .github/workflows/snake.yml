@@ -28,7 +28,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
 
       - name: Collect images
-        run: cp -r profile-3d-contrib dist/
+        run: sudo cp -r profile-3d-contrib dist/
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
