@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,100:6C63FF&height=180&section=header&text=Bhupinder%20Singh&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Developer%20%7C%20Node.js%20%C2%B7%20NestJS%20%C2%B7%20Microservices&descAlignY=58&descSize=18" />
+<img width="100%" src="assets/header.svg" />
 
 <p align="center">
   <a href="https://github.com/bhupinder759">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Backend+Developer+(Node.js+%2F+NestJS);25+microservices+over+Kafka+%26+gRPC;Payments%2C+wallets+%26+idempotent+systems;6M%2B+notifications+in+production;3+years+building+backend+systems;Open+to+work+%C2%B7+immediate+joiner" alt="Typing SVG" />
+    <img src="assets/typing.svg" alt="Typing SVG" />
   </a>
 </p>
 
@@ -135,4 +135,4 @@ My services        →  subscriptions & payments (Razorpay)
 
 ---
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:0E75B6&height=120&section=footer" />
+<img width="100%" src="assets/footer.svg" />
