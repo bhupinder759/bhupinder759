@@ -27,8 +27,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - uses: actions/checkout@v4
+        with:
+          path: src
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # stats, streak and language cards built from GitHub's own API
+      - name: Build cards
+        run: node src/scripts/cards.mjs cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
       - name: Collect images
-        run: sudo cp -r profile-3d-contrib dist/
+        run: sudo cp -r profile-3d-contrib cards dist/
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

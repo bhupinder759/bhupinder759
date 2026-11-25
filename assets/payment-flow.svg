@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#161B33"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity="0.04"/>
+    </pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.4"/></filter>
+    <clipPath id="card"><rect width="1200" height="380" rx="20"/></clipPath>
+    <style>
+      .box{fill:#0F172A;stroke:#334155;stroke-width:1.3}
+      .t{fill:#E2E8F0;font-size:15px;font-weight:700}
+      .s{fill:#94A3B8;font-size:12px}
+      .w{stroke:#475569;stroke-width:1.5;fill:none}
+      .dash{stroke-dasharray:5 6;animation:flow 1.2s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-22}}
+      .dup{animation:dup 4s ease-in-out infinite}
+      @keyframes dup{0%,40%{opacity:0}50%,85%{opacity:1}100%{opacity:0}}
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+
+    <text x="40" y="44" fill="#E2E8F0" font-size="20" font-weight="800">Safe to repeat: how a payment flows</text>
+    <text x="40" y="68" class="s">A retried webhook or a redelivered Kafka event is detected and ignored, so nobody is charged or credited twice.</text>
+
+    <!-- wires -->
+    <path id="p1" class="w dash" d="M190 190 H 290" marker-end="url(#arr)"/>
+    <path id="p2" class="w dash" d="M470 190 H 570" marker-end="url(#arr)"/>
+    <path id="p3" class="w dash" d="M750 190 C 800 190, 800 120, 850 120" marker-end="url(#arr)"/>
+    <path id="p4" class="w dash" d="M750 190 C 800 190, 800 260, 850 260" marker-end="url(#arr)"/>
+    <path id="p5" class="w dash" d="M750 190 H 850" marker-end="url(#arr)"/>
+    <path class="w" d="M380 225 V 300" stroke-dasharray="3 4"/>
+
+    <!-- nodes -->
+    <rect class="box" x="40" y="155" width="150" height="70" rx="12"/>
+    <text class="t" x="115" y="185" text-anchor="middle">Razorpay</text>
+    <text class="s" x="115" y="205" text-anchor="middle">payment webhook</text>
+
+    <rect x="290" y="150" width="180" height="80" rx="12" fill="#1E1B4B" stroke="#A78BFA"/>
+    <text class="t" x="380" y="182" text-anchor="middle" fill="#E9D5FF">Idempotency check</text>
+    <text class="s" x="380" y="204" text-anchor="middle" fill="#C4B5FD">key seen before? → skip</text>
+
+    <rect class="box" x="300" y="300" width="160" height="50" rx="10"/>
+    <text class="t" x="380" y="323" text-anchor="middle" font-size="13">MongoDB</text>
+    <text class="s" x="380" y="340" text-anchor="middle" font-size="11">atomic counters</text>
+
+    <rect x="570" y="155" width="180" height="70" rx="12" fill="#1C1917" stroke="#F59E0B" stroke-opacity=".8"/>
+    <text class="t" x="660" y="185" text-anchor="middle" fill="#FDE68A">Kafka</text>
+    <text class="s" x="660" y="205" text-anchor="middle" fill="#FCD34D">payment event</text>
+
+    <rect class="box" x="850" y="92" width="300" height="56" rx="12"/>
+    <text class="t" x="870" y="117">Subscriptions &amp; GST invoice</text>
+    <text class="s" x="870" y="136">plan activated · invoice number from atomic counter</text>
+
+    <rect class="box" x="850" y="162" width="300" height="56" rx="12"/>
+    <text class="t" x="870" y="187">Refer-and-earn wallet</text>
+    <text class="s" x="870" y="206">idempotent consumer · credited exactly once</text>
+
+    <rect class="box" x="850" y="232" width="300" height="56" rx="12"/>
+    <text class="t" x="870" y="257">Notifications</text>
+    <text class="s" x="870" y="276">push · SMS · in-app (6M+ sent)</text>
+
+    <!-- good event -->
+    <g>
+      <circle r="6" fill="#22C55E" filter="url(#soft)"><animateMotion dur="1.3s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="3" fill="#fff"><animateMotion dur="1.3s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="6" fill="#22C55E" filter="url(#soft)"><animateMotion dur="1.3s" begin=".4s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="3" fill="#fff"><animateMotion dur="1.3s" begin=".4s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="5" fill="#7DD3FC" filter="url(#soft)"><animateMotion dur="1.4s" begin=".8s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+      <circle r="5" fill="#A78BFA" filter="url(#soft)"><animateMotion dur="1.4s" begin=".9s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion></circle>
+      <circle r="5" fill="#F472B6" filter="url(#soft)"><animateMotion dur="1.4s" begin="1s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+    </g>
+
+    <!-- duplicate stopped -->
+    <g class="dup">
+      <rect x="196" y="236" width="182" height="30" rx="15" fill="#450A0A" stroke="#EF4444" stroke-opacity=".7"/>
+      <text x="287" y="256" text-anchor="middle" fill="#FCA5A5" font-size="12" font-weight="700">✕ duplicate webhook ignored</text>
+    </g>
+
+    <g transform="translate(850 340)">
+      <circle cx="6" cy="-4" r="5" fill="#22C55E"/><text x="18" y="0" class="s">new event</text>
+      <circle cx="106" cy="-4" r="5" fill="#EF4444"/><text x="118" y="0" class="s">retry / redelivery, stopped</text>
+    </g>
+  </g>
+</svg>

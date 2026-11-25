@@ -45,6 +45,10 @@ a user twice, and a redelivered Kafka event should never credit someone twice.
 
 ## ⚙️ What I built at BlueEra
 
+<p align="center">
+  <img src="assets/payment-flow.svg" width="100%" alt="Idempotent payment flow: Razorpay webhook, idempotency check, Kafka, subscriptions, wallet, notifications" />
+</p>
+
 ```
 BlueEra super app  →  ~25 independent Node.js microservices
                       each with its own MongoDB database
@@ -115,17 +119,16 @@ My services        →  subscriptions & payments (Razorpay)
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bhupinder759&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=86400" width="48%" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com/?user=bhupinder759&theme=tokyonight&hide_border=true" width="48%" alt="Streak" />
+  <img src="https://raw.githubusercontent.com/bhupinder759/bhupinder759/output/cards/stats.svg" width="62%" alt="GitHub activity and streak" />
+  <img src="https://raw.githubusercontent.com/bhupinder759/bhupinder759/output/cards/languages.svg" width="36%" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhupinder759&theme=tokyo-night&hide_border=true&area=true" width="97%" alt="Activity graph" />
+  <img src="https://raw.githubusercontent.com/bhupinder759/bhupinder759/output/cards/activity.svg" width="97%" alt="Activity graph" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhupinder759&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" width="42%" alt="Top languages" />
-  <img src="https://raw.githubusercontent.com/bhupinder759/bhupinder759/output/profile-3d-contrib/profile-night-rainbow.svg" width="55%" alt="3D contribution chart" />
+  <img src="https://raw.githubusercontent.com/bhupinder759/bhupinder759/output/profile-3d-contrib/profile-night-rainbow.svg" width="97%" alt="3D contribution chart" />
 </p>
 
 <picture>
